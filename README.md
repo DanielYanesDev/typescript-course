@@ -1,9 +1,8 @@
 # TypeScript Course
 
-<div style="display: flex; justify-content: flex-start; align-items: center; gap: 20px;">
-  <img src="./doc/typescript-image.webp" alt="Typescript logo" width="250px" height="100px" style="border-radius: 10px;"  />
-  Practices of TypeScript Course.
-</div>
+<img src="./doc/typescript-image.webp" alt="Typescript logo" width="300" />
+
+Practices of TypeScript Course include util syntax information and examples of the languague.
 
 ## Run and Build
 
