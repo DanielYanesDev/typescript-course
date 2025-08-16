@@ -1,11 +1,18 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.tsbuildinfo",
+    "target": "es2024",
+    "module": "es2022",
     "esModuleInterop": true,
-    "target": "es6",
-    "moduleResolution": "node",
-    "sourceMap": true,
-    "outDir": "./practices/out"
+    "outDir": "practices/build",
+    "useDefineForClassFields": true,
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
   },
-  "lib": ["es2015"]
+  "include": ["practices"]
 }

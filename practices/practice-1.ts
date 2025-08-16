@@ -1,4 +1,3 @@
-
 // type Country = {
 //   name: string,
 //   poblation: number,
@@ -14,7 +13,6 @@
 //   { name: "United States", poblation: 4000, tourist: 60 },
 // ]
 
-
 // function showCountry(country: Country): void {
 //   console.log(
 //     `Country name: ${country.name}`,
@@ -27,8 +25,6 @@
 //   showCountry(country)
 // })
 
-
-
 // const personsNames = ['Daniel', 'Marcos', 'Adrian', 'Anderson', 'Josue', 'Maria', 'Karla']
 // const personsLastNames = ['Yanes', 'Fernandez', 'Guillermo', 'Franco', 'Castro', 'Salome', 'Rodriguez']
 
@@ -37,7 +33,6 @@
 // })
 
 // console.log(unions)
-
 
 const months = [
   'January',
@@ -63,6 +58,4 @@ const months = [
 
 const result: boolean = months.some(month => month.toUpperCase() === 'FEBRUARY')
 
-
 console.log(result)
-

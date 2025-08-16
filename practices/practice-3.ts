@@ -4,7 +4,6 @@ type User = {
   cellphone:number
 }
 
-
 const getUser = (user: User) => {
   return {
     ...user,

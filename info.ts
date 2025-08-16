@@ -1,5 +1,5 @@
-// ➡️ inferencia
-// como a y b infiere que son numbers
+// ➡️ Inferencia
+// como a y b son numbers TypeScript infiere que c es number
 const a = 1;
 const b = 2;
 const c = a + b;

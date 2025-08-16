@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="../build/practice-5/main.js" type="module"></script>
+  </head>
+  <body>
+    <main class="App">
+      <h1 class="App-title">Random Number Generator 🔒</h1>
+
+      <div class="App-inputGroup">
+        <label for="limitInput" class="App-limitLabel">Select a limit</label>
+        <input type="number" id="limitInput" class="App-limitInput" min="1" />
+        <button class="App-generateButton">Generate</button>
+      </div>
+
+      <div class="App-outputContainer" hidden>
+        <p class="App-generatedText"></p>
+        <button class="App-clipboardButton" aria-label="Copy to clipboard">
+          <img
+            src="./icons/clipboard.svg"
+            alt="Clipboard icon"
+            class="App-clipboardIcon"
+          />
+          <span class="App-tooltip" role="tooltip">¡Copiado!</span>
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
